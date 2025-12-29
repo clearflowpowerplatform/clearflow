@@ -73,13 +73,13 @@
 .image-row {
     display: flex;
     justify-content: space-between;
-    gap: 15px;
+    gap: 13px;
     margin-top: 15px;
 }
 
 
 .image-row img {
-    width: auto;               /* 每张图占卡片宽度的约1/3 */
+    width: 32%;               /* 每张图占卡片宽度的约1/3 */
     height: auto;             /* 高度自动，保持原始比例 */
     object-fit: contain;      /* 显示完整图像，不裁切 */
     border-radius: 6px;
@@ -87,7 +87,15 @@
     padding: 5px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
-
+.image-row2 img {
+    width: 90%;               /* 每张图占卡片宽度的约1/3 */
+    height: auto;             /* 高度自动，保持原始比例 */
+    object-fit: contain;      /* 显示完整图像，不裁切 */
+    border-radius: 6px;
+    background: #f2f2f2;      /* 给空白区域一点背景，视觉更干净 */
+    padding: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
 
 
 
@@ -151,7 +159,7 @@
             <strong>Training Registration Automation</strong><br><br>
             Online form + document generation<br><br>
             <strong>Tools: Power Automate, Excel</strong>
-            <div class="image-row"> <img src="trainingcourse.jpg">  </div>
+            <div class="image-row2"> <img src="trainingcourse.jpg">  </div>
         </div>
         <div class="card">
             <strong>Project Tracking Dashboard</strong><br><br>
